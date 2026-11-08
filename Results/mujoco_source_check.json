@@ -1,0 +1,39 @@
+{
+  "commit": "8892bf44b07c20f0e4dcd8b8c34ca46683b97b76",
+  "release": "3.16.0",
+  "cmp_command": "cmp -s release-mj_RungeKutta.c main-mj_RungeKutta.c",
+  "cmp_exit_status": 1,
+  "byte_identical": false,
+  "release_function_sha256": "02ecaaba2604a064be408e25e7dcac77065edc104a5187210b367847bd46f9d9",
+  "main_function_sha256": "287860dd79bcd00ca778c6678037ef712aca2fefee8223b567f6ff6a02b4c475",
+  "release_file_sha256": "62203b65e563248d6c764e3345f6c1b733785c721ef0121fd6817d27a5fb78eb",
+  "main_file_sha256": "07936ced66cc2032ee3fa1b06032301dd51710c61122a9819bcdb51c40479ddd",
+  "rkmk_present": true,
+  "library_sha256": "3e0ad23e15d9d5bdb110d1df4fde81f3c4c993b15e3d3e437b27941475e1db58",
+  "worker_sha256": "cb61ac3e62dd1ac64a0338ee0894dbac3976afce8452f855c5de6915ca1d3073",
+  "python": "3.14.6",
+  "numpy": "2.5.4",
+  "pandas": "3.1.0",
+  "gymnasium": "1.4.0",
+  "compiler": "g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+  "engine": "4.0.0 (source)",
+  "steps": 20,
+  "starts_per_seed": 24,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "release_worker_protocol_validation": [
+    {
+      "environment": "Ant-v5",
+      "n_starts": 24,
+      "max_abs_difference": 1.7763568394002505e-15
+    },
+    {
+      "environment": "Humanoid-v5",
+      "n_starts": 24,
+      "max_abs_difference": 1.1368683772161603e-13
+    }
+  ]
+}

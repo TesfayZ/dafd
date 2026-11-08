@@ -1,0 +1,9 @@
+system,h,T,true_order,eps,n,classes
+henon_heiles,0.1,20.0,2,0.0,20,{'consistent': 20}
+henon_heiles,0.1,20.0,2,0.001,20,{'model': 20}
+henon_heiles,0.1,20.0,4,0.0,20,{'consistent': 20}
+henon_heiles,0.1,20.0,4,0.001,20,{'model': 20}
+henon_heiles,0.1,200.0,2,0.0,20,{'consistent': 20}
+henon_heiles,0.1,200.0,2,0.001,20,{'model': 20}
+henon_heiles,0.1,200.0,4,0.0,20,{'consistent': 20}
+henon_heiles,0.1,200.0,4,0.001,20,{'model': 20}

@@ -1,0 +1,11 @@
+\begin{tabular}{lcc}
+\toprule
+Orientation update (same heavy top) & trajectory slopes & energy exponents $(a,b,c)$; class \\
+\midrule
+MuJoCo \texttt{RK4} & 2.00, 1.98, 1.99 & (Table~\ref{tab:mj-quat}) \\
+NumPy replica of MuJoCo's update & 2.00, 1.98, 1.99 & $(2.01,2.00,2.00)$; order-2 24 \\
+embedded RK4 + renormalisation & 4.48, 4.18, 3.99 & $(4.61,4.39,4.14)$; consistent 24 \\
+commutator-free Lie RK4 (CF4) & 4.03, 4.03, 4.02 & $(4.31,4.07,4.02)$; consistent 24 \\
+CF4 with the two exponentials in the wrong order & 1.97, 1.98, 1.99 & -- \\
+\bottomrule
+\end{tabular}

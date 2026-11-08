@@ -1,0 +1,30 @@
+{
+  "protocol": "doc/SELF_CONVERGENCE_PROTOCOL.md",
+  "post_hoc": true,
+  "seed": 20261104,
+  "starts": 40,
+  "steps": 20,
+  "macro_steps": [
+    0.2,
+    0.05
+  ],
+  "python": "3.14.6",
+  "packages": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "gymnasium": "1.4.0"
+  },
+  "source_sha256": {
+    "benchmark_self_convergence.py": "fd430259255841dd613b58f748d064756b69a0d2ac17eef1ec66e51b0a44020a",
+    "doc/SELF_CONVERGENCE_PROTOCOL.md": "b21b57a5590444a40607e58c70560ad4cfb199671730ec5067a39c1a64b8ec86",
+    "shipped_acrobot.py": "5f8b07d3eebdc7d1a47ec41ecbd6540e3abcfbb60073434840098ea37e0bef49",
+    "acrobot.py": "e6ff5f8dd3e1abafa5ad37abd8e5596ffd13c8e6f73e3a31ebf2d6f0411b600b",
+    "fingerprint.py": "5e1c14e0f0445c9ff0024a155f2b5aa9354e6d07a46e802963eec99ec8092b4b",
+    "results_io.py": "29772d75c90a0421d36e42fbce715f058b9db2ff2d3fd8b60d07a3e9a77c4efd"
+  },
+  "output_sha256": {
+    "Results/self_convergence_trials.csv": "5a0a987c326b025254a26d7acc931447fd4f09f8c9d0c8a397ebd0cfa1040709",
+    "Results/self_convergence_steps.csv": "2c056bf544ecbca31066307300a2f5d677359fc66150a83ed15444e372f52f91",
+    "Results/self_convergence_summary.csv": "79767f81d58021e0c6de4db4f57394338e8e9816be296195fc463f6747582710"
+  }
+}

@@ -1,0 +1,36 @@
+% Vector decision flow; thresholds and guard order match fingerprint.py.
+\begin{tikzpicture}[
+  font=\small, >=Stealth,
+  test/.style={draw,rounded corners=2pt,align=center,text width=9.0cm,
+    minimum height=0.65cm,inner sep=4pt},
+  exit/.style={draw,rounded corners=2pt,align=center,text width=2.5cm,
+    minimum height=0.65cm,inner sep=4pt},
+  flow/.style={->,semithick},
+  lab/.style={font=\footnotesize,fill=white,inner sep=2pt}]
+\node[test,fill=black!4] (sample) {Restore each $x_k$; integrate the same interval $h$ at $m=1,2,4,8$.\\
+  $R_m=\frac1K\sum_k |E(\Psi_{h/m}^{\,m}x_k)-E(x_k)|/h$.\\Use floor $\phi$ from Definition~\ref{def:classifier}.};
+\node[test,below=0.38cm of sample] (finite) {Any $R_m$ nonfinite?};
+\node[exit,right=0.85cm of finite] (blowup) {\textsc{blowup}};
+\node[test,below=0.38cm of finite] (floor) {$R_8\le\phi$ or $\min_m R_m\le0$?};
+\node[exit,right=0.85cm of floor] (unresolved) {\textsc{undetermined}};
+\node[test,below=0.38cm of floor] (large) {$R_8>S_E/(2t_{\mathrm{ref}})$?};
+\node[exit,right=0.85cm of large] (unstable) {\textsc{unstable}};
+\node[test,fill=black!4,below=0.38cm of large] (exponents) {
+  $(a,b,c)=(\log_2\frac{R_1}{R_2},\log_2\frac{R_2}{R_4},\log_2\frac{R_4}{R_8})$; $\bar p=(a+b+c)/3$.\\
+  $\theta=q-1$ if $q\ge3$, otherwise $q-\tfrac12$.};
+\node[test,below=0.38cm of exponents] (consistent) {$\min(a,b,c)\ge\theta$?};
+\node[exit,right=0.85cm of consistent] (pass) {\textsc{consistent}};
+\node[test,below=0.38cm of consistent] (model) {$c<0.5$ or $(c<\min(a,b)-0.4\ \text{and}\ c<\theta)$\\
+  or $\bar p\le0.5$?};
+\node[exit,right=0.85cm of model] (fault) {\textsc{model}};
+\node[test,below=0.38cm of model] (order) {\textsc{order-}$\operatorname{round}(\bar p)$ (ties to even)};
+\draw[flow] (sample) -- (finite);
+\draw[flow] (finite) -- node[lab]{no} (floor);
+\draw[flow] (floor) -- node[lab]{no} (large);
+\draw[flow] (large) -- node[lab]{no} (exponents);
+\draw[flow] (exponents) -- (consistent);
+\draw[flow] (consistent) -- node[lab]{no} (model);
+\draw[flow] (model) -- node[lab]{no} (order);
+\foreach \source/\target in {finite/blowup,floor/unresolved,large/unstable,consistent/pass,model/fault}
+  \draw[flow] (\source) -- node[lab]{yes} (\target);
+\end{tikzpicture}

@@ -1,0 +1,18 @@
+\begin{tabular}{lrrrrrrr}
+\toprule
+ & \multicolumn{2}{c}{Acrobot RK4 (development)} & \multicolumn{5}{c}{Three transfer systems} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-8}
+Variant & healthy model & faults $10^{-5}$ & healthy model & healthy other flag & healthy abstain & faults $10^{-2}$ & HH faults $10^{-4}$ \\
+\midrule
+default (as in the paper) & 0/1000 & 175/180 & 0/1440 & 0 & 139 & 1080/1080 & 254/360 \\
+$c_{\mathrm{thr}}=0.25$ & 0/1000 & 175/180 & 0/1440 & 0 & 139 & 1080/1080 & 254/360 \\
+$c_{\mathrm{thr}}=1.0$ & 0/1000 & 175/180 & 0/1440 & 0 & 139 & 1080/1080 & 254/360 \\
+$\delta=0.1$ & 0/1000 & 175/180 & 0/1440 & 0 & 139 & 1080/1080 & 254/360 \\
+$\delta=0.8$ & 0/1000 & 175/180 & 0/1440 & 0 & 139 & 1080/1080 & 254/360 \\
+$\theta=q-0.5$ (all $q$) & 0/1000 & 180/180 & 0/1440 & 0 & 139 & 1080/1080 & 270/360 \\
+$\theta=q-1$ (all $q$) & 0/1000 & 175/180 & 0/1440 & 0 & 139 & 1080/1080 & 241/360 \\
+$\theta=q-1.5$ (all $q$) & 0/1000 & 166/180 & 0/1440 & 0 & 139 & 1080/1080 & 239/360 \\
+round-off factor 10 & 0/1000 & 175/180 & 0/1440 & 0 & 127 & 1080/1080 & 254/360 \\
+round-off factor 500 & 0/1000 & 175/180 & 0/1440 & 0 & 175 & 1080/1080 & 254/360 \\
+\bottomrule
+\end{tabular}

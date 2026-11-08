@@ -1,0 +1,19 @@
+group,kind,attribute,eps,integrator,n,classes,median_a,median_b,median_c
+healthy,nominal,,0,euler,200,{'consistent': 200},1.0,1.0,1.0
+healthy,nominal,,0,semi-implicit,200,{'consistent': 200},1.0,1.0,1.0
+spec_mismatch,spec,masspole,0.001,euler,100,{'consistent': 100},1.0,1.0,1.0
+spec_mismatch,spec,masspole,0.01,euler,100,{'consistent': 100},1.0,1.0,1.0
+spec_mismatch,spec,masspole,0.1,euler,100,"{'model': 69, 'consistent': 31}",0.95,0.64,0.33
+spec_mismatch,spec,masspole,0.5,euler,100,{'model': 100},0.25,0.09,0.02
+stale,stale,masspole,0.001,euler,100,{'consistent': 100},1.0,1.0,1.0
+stale,stale,masspole,0.01,euler,100,{'consistent': 100},1.0,0.99,0.98
+stale,stale,masspole,0.1,euler,100,"{'model': 64, 'consistent': 36}",0.9,0.71,0.39
+stale,stale,masspole,0.5,euler,100,{'model': 100},0.41,0.18,0.06
+stale,stale,length,0.001,euler,100,{'consistent': 100},1.0,1.0,1.0
+stale,stale,length,0.01,euler,100,{'consistent': 100},1.0,0.99,0.98
+stale,stale,length,0.1,euler,100,"{'model': 69, 'consistent': 31}",0.9,0.67,0.37
+stale,stale,length,0.5,euler,100,{'model': 100},0.39,0.14,0.04
+updated_control,consistent,masspole,0.1,euler,100,{'consistent': 100},1.0,1.0,1.0
+updated_control,consistent,masspole,0.5,euler,100,{'consistent': 100},1.0,1.0,1.0
+updated_control,consistent,length,0.1,euler,100,{'consistent': 100},1.0,1.0,1.0
+updated_control,consistent,length,0.5,euler,100,{'consistent': 100},1.0,1.0,1.0

@@ -1,0 +1,4 @@
+integrator,declared_order,h,classes
+"implicit midpoint (E quadratic, conserved exactly)",2,0.1,{'undetermined': 40}
+"implicit midpoint (E quadratic, conserved exactly)",2,0.4,{'undetermined': 40}
+"implicit midpoint (E quadratic, conserved exactly)",2,1.0,{'undetermined': 40}

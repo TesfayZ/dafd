@@ -1,0 +1,6 @@
+m2_true,m2_hat,rel_error,classes_with_fitted_E,classes_with_nominal_E,n_starts
+0.7,0.6999999957684503,6.04507095174662e-09,{'consistent': 6},{'model': 6},6
+0.9,0.8999999889245482,1.2306057531022121e-08,{'consistent': 6},{'model': 6},6
+1.1,1.1000000006060677,5.509705822894581e-10,{'consistent': 6},{'model': 6},6
+1.3,1.300000057867959,4.451381451476576e-08,"{'consistent': 5, 'order-4': 1}","{'model': 5, 'unstable': 1}",6
+1.001,1.0009999929250428,7.06788917547009e-09,{'consistent': 6},{'model': 6},6

@@ -1,0 +1,402 @@
+{
+  "purpose": "Full rerun of the corrected protocol during manuscript refinement; retrospective verification, not new prospective validation",
+  "status": "complete",
+  "command": "PREDECESSOR_REPO=/path/to/local/projects/algebraicRLtest venv/bin/python -u run_all_experiments.py --jobs 1",
+  "python": "3.14.6",
+  "versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "sympy": "1.14.0",
+    "pandas": "3.1.0",
+    "gymnasium": "1.4.0",
+    "mujoco": "3.16.0"
+  },
+  "comparison_repository_commit": "687c868c204b8ec537451b5e046532de80197d9d",
+  "source_sha256": {
+    "acrobot_mpmath.py": "30d3cc33bcd676b6f94c6aad1204605da4b62be4e96e4fa21cb2115f8693200d",
+    "benchmark_shipped_acrobot_calibrated_detectors.py": "85f7069f3b9187c8c6725824577848b274fcae194e07ab6f44c309915a2c0832",
+    "check_claims.py": "acc6630b06adc290dd67892b99b73999f8372ebaa03d3b3a93fc0b5e48e5f9d9",
+    "benchmark_parameter_fault_sweep.py": "14afa25d09062354fa17961ed61928334d22cd2fe4e587d3fa3692665647e921",
+    "benchmark_head_to_head_predecessor_screen.py": "a2a70167b4ec1c0601899223e648b4c0186b410fac5b3f6a6e17f39f25c47ccd",
+    "benchmark_parameter_identification_from_invariant.py": "3fa34ced9352004b6f462baf5a586d9040666692124a261a247555616d69d614",
+    "predecessor.py": "88fb5dd3de513216dec24041825616401c58d64c5c6980e9c621a6b39e412b37",
+    "benchmark_cartpole_stale_constants.py": "12fd7f0ab0ac2913f331a329c26ff46536a766ff2b818de8d2ad6b1a8e9219a3",
+    "benchmark_symbolic_lie_derivative.py": "4e1f0c5720887a471a272a7e760ffa37eb301c0d688b36b8d29a149b2362cf4d",
+    "run_all_experiments.py": "059ffec570248f50c8a2cda7e98cb67e3eaecc6429d0849fc85c5d7e69898710",
+    "benchmark_false_alarm_floor_noise_guard.py": "e82d1309c9f0d65327c41c32a61d60aa3b25284e73ec081826faac0293fa928f",
+    "benchmark_regime_gated_fingerprint.py": "209df7c6034114ba331e759bbbc5a18dda441dce3362d2d059532aaab3fe9fed",
+    "benchmark_cartpole_order_adapted_richardson.py": "32d90999becc5618a11ede9185356ed3cfa5d516c48608c1b46200356a2a2b0c",
+    "benchmark_shipped_acrobot_fingerprint.py": "73152df6677f3fe5204a8772c4e70a7672dd8b26717830dd97af97769930127c",
+    "shipped_classic_control.py": "07d5196047201d9c953affc184abb2723779a1020caf7eda92ed0cb6e9684c26",
+    "benchmark_noise_sources_operating_envelope.py": "4fa93b6c178b95f321a9735199203cc9f713a0c1a78ac78893371fc1ef838711",
+    "make_figures.py": "150027695f4ac1cbb6a1f1181d55bec0431e5b84620f26e54a762ab018070a18",
+    "benchmark_repeated_start_analysis.py": "904c02603c4f6a81ffb9a7a39db685fb8217db39881c7e4058b445676a779de3",
+    "benchmark_transfer_validation.py": "c75aa1251e08306a87b2c2f32053a8366f904b2d954e4a8d2926d2671d4bdd28",
+    "benchmark_mujoco_trajectory_error.py": "8de893924a986c1dcaf44b69a3e0bac96f642539b099ee3019c32704f3214103",
+    "benchmark_floor_distribution.py": "2b3ace8adfe3cb37464d77dd8b56dbd1dceed3d5f5f5c99f29dc537757216893",
+    "benchmark_signed_defect_and_r2_asymptotics.py": "3818c2ec0655773442150fdb50d32d91dbfb9eb06bfcb815d624bb71d4500ef3",
+    "benchmark_mujoco_audit_robustness.py": "f3e08e8d7a7da76486315c80261bd5461fd8b09d0489cea42f379a0334b36690",
+    "benchmark_mujoco_integrator_order.py": "713314bdbe868dec4723a49f64aea198a3a357778381363f2ae9957defb6b889",
+    "acrobot_parametric.py": "1176b5aca3e49b56e49188bad30c89abd51f1e4c0adfffe6e41884d0d7f03885",
+    "test_corrections.py": "1e59957733b521f9ae8d15e82b948b1b21c0dc64a33ef6af2ed555c6197be43c",
+    "benchmark_quaternion_mechanism.py": "2b0fba413779a0275782e14fb40aad72be3d0919e5b3826e032e450da9c0aff7",
+    "shipped_acrobot.py": "5f8b07d3eebdc7d1a47ec41ecbd6540e3abcfbb60073434840098ea37e0bef49",
+    "benchmark_order_estimator_comparison.py": "b653a31b70bd6c8fa6c31ce8b1b00310da91871d9d7d2c7a36151212bf1ac6af",
+    "acrobot.py": "e6ff5f8dd3e1abafa5ad37abd8e5596ffd13c8e6f73e3a31ebf2d6f0411b600b",
+    "benchmark_matched_step_control.py": "9c36b08dc0a087cde56ed144dde683a01b056e014d11b3fce036cd14342fa3f2",
+    "benchmark_matched_compute_noise_fingerprint.py": "52b7840fe61fc9e545317fbe5551aa89e1e22843041ff365a976f948e3db3928",
+    "benchmark_domain_randomisation.py": "a21e21c2a799b4634817f49e496dbc3563dac5fd10f23cd13fae19425c0771e4",
+    "benchmark_stale_constants_consequences.py": "3eb681e2b8d32960a23dec694d5c5539e93eee57a80d12e03e91519093a39ec2",
+    "make_tables.py": "762bd5927548abadb6ef5efd9668701ff4ee18fa1885c092de460624ddf689aa",
+    "benchmark_classifier_sensitivity.py": "b4f3697b366de094cc3f4f19da09ecfc8ad03ea10b987363fff691b5a477aab6",
+    "results_io.py": "29772d75c90a0421d36e42fbce715f058b9db2ff2d3fd8b60d07a3e9a77c4efd",
+    "benchmark_rk4_defect_high_precision.py": "0095df6b362def3c4e0d94195dfa46fe2f99661c97baca8510c7a3c2bf78ab12",
+    "shipped_cartpole.py": "d71ab67ea0bb28e20f16c5606c595ea1e44199429ed59ec167b876c7ac0d4145",
+    "fingerprint.py": "5e1c14e0f0445c9ff0024a155f2b5aa9354e6d07a46e802963eec99ec8092b4b",
+    "benchmark_finite_step_classifier_validation.py": "bb7dbfd84d62833bc16b4df777583697f2d422057a6f4078740dfed91ecf1d4e",
+    "benchmark_quaternion_joint_order_control.py": "3129c2abbaa0a0fff533048a9945f075429b5ef77020536e07c14854bb25f5ec"
+  },
+  "pre_run_csv_sha256": {
+    "transfer_validation.csv": "d20205e642e41825738cdb68a19ba76a62459e156bee3d599935e9689e2a81d6",
+    "transfer_trials.csv": "e994d50077776248ae51a100473b1f8d33d158c5ec1900badbe78c738a1d8e13",
+    "transfer_horizon.csv": "5f08cdcb021460010c69b4ffca9e42f4c2fb5ad46f3e7520d7808b9926a171cc",
+    "symbolic_lie_derivative_acrobot.csv": "bd6f163b7effef84042f74aef0df53c2246b267e8c7b51a37f83e844809e2e1b",
+    "stale_constants_divergence.csv": "4cf0cbb7c531dbe73949ecc023c8143222703eab00219d6e6d88fc81845efe1c",
+    "shipped_acrobot_fingerprint_trials.csv": "ad0e860a6ed47d31dcad1aa5880c29c3dbbe683e8844995cf156f11fb1c61d59",
+    "shipped_acrobot_fingerprint_summary.csv": "3aaf7fbc65b77d67b079f28a8648fc7c6cd24df15083a0c48778a2f9c77811f0",
+    "shipped_acrobot_calibrated_detectors.csv": "ae86330b8676dda70ee0d4d59b0933925b758840f1c8c6c5c88338e0c54dad4f",
+    "rk4_signed_defect.csv": "2bb3c06f5a91cb39ea5917ffe176cc85a6e72f7f0055f7c082bebf190d27ed30",
+    "rk4_defect_high_precision.csv": "e3beecef34b77f9071bc6a97e092126c86638f78f2ffe42b8a5248116d8b6596",
+    "repeated_start_summary.csv": "bb9dd85ad0de1a14cc34b07f64eb9da76ae58622a6428ef69a2797398e526736",
+    "regime_gated_fingerprint.csv": "0c1e05ed771b8418f11d48bf9aa7953549addb199ece1c9fb5b55fb5ab618ce5",
+    "r2_asymptotics.csv": "1261ca452694e6b2806863c1f71612c105acf0f414701b7936ebf666aff2a3cd",
+    "quaternion_mechanism_replication.csv": "afe0ba3c0df20c3016ec5f92ff42e1b616cc6fc3e6c70cd73333ea45eadf3b13",
+    "quaternion_mechanism_order.csv": "1c980e80ed304f0acd2617739e6795e7f482dfeb975157c7c6e545f470c9d07f",
+    "quaternion_mechanism_local_error.csv": "737233d7aec96705635212ecb887115886ad7837f160d00de4ac3ad828b52bbe",
+    "quaternion_mechanism_convergence.csv": "ce554b1ab4ae8dc358a9a8d84d14e52ae91e6464b686da1534a6707771a0f236",
+    "quaternion_joint_order_control.csv": "a7eb655d8aac9903f56ee85fef3150b4817d40a557834bcf304e6747ddfa10a1",
+    "parameter_identification.csv": "6ac4f36600acb1d04706a8fb1bc7acd7bbe4f7a90bc1f0cd6b9df9d1cd75a6c9",
+    "parameter_fault_sweep_summary.csv": "94096f57ed41da6117a0dc24e9fe38da1fd607d58e0762488e06d96aacefa8ad",
+    "parameter_fault_sweep.csv": "33aece2094b41aa44b872596daea63c8ef3eea66bee831900f6b9b6c9dd8dee2",
+    "order_estimator_comparison.csv": "472459dc2b4900db83e8b7c3496aab4bb76467d1280175509f5f456c5d85818c",
+    "noise_sources_operating_envelope.csv": "1b8c0bd4da4536fd249e501279504805c4d966e216529c257dda07d075305627",
+    "noise_guard.csv": "3b9ca472285ed79bed4b7dd5fa0a9e473a96e228bd290120617cad9b7cede42a",
+    "mujoco_trajectory_error.csv": "d5b9dba06c220e0ff5cd5264fe42d5071f5fb6f697009baff9cffdaab554c2e1",
+    "mujoco_integrator_order_trials.csv": "af86418cc90f3bea3fa19146f87dd427a8fd38c5379b628ed832cf8109b3ae72",
+    "mujoco_integrator_order_audit.csv": "6dfed9b645c167453f4da84551459670bbd6b2e97eebbaea2d35707910b7a0c7",
+    "mujoco_audit_shipped_step_trials.csv": "dad6d446e12dc1b0959589137031945aacd182915b3f53df2dd99378496751b1",
+    "mujoco_audit_shipped_step.csv": "773431dc485ece76908d528e03b1c665bd12c28ea78de5026fc60c8f61217513",
+    "mujoco_audit_seeds.csv": "bfea4116844ad42474f022747ec14abce77940dff6238ce9b19201aeb61f7f61",
+    "mujoco_audit_seed_trials.csv": "8c67d5524b879eabec472dbbbafe5ddefc79eb0e334c84b358074c8f35d146c0",
+    "matched_step_control.csv": "38132160a18853a9085ef5e8f13dbe103ef003301b80e1c92d963a64c80026b9",
+    "matched_compute_noise_fingerprint.csv": "77fb41f4a546df283edcaf3705f2c84a5dbdea12a253caf1042545506f338b78",
+    "head_to_head_predecessor_screen.csv": "251963219994679feba3c96a5e1924bb268ff9a837e1dcaa07af753c561ded78",
+    "floor_distribution.csv": "debfde704ca439c306b934a393e0bb6869e0cab0ef6f0410bc747be3f2bf5849",
+    "finite_step_validation.csv": "bc84729df2150a710ac8c1270d8595f49c1c3dc4a42155c517f4230288a51b60",
+    "finite_step_trials.csv": "a2a469585405a2a2a0b4d6f49d99dad9cba473e1375ea3aa43d6117a1f71d0c3",
+    "finite_step_sign_change_scan.csv": "3b974af4aadf3e5341e45fa010f54367c4c532a46ff406323d69d30a366fb957",
+    "false_alarm_healthy.csv": "e9c349d10c9619b4d898133022af2eaadbf2be2b61d59fe33f540f5ad17d3f1e",
+    "energy_preserving_integrator.csv": "58118f92ff39e62c6409f3ded45ab0a48edc52d818dc525f2988600be1221b63",
+    "domain_randomisation_audit.csv": "ff1dfe5010c04f1e14e1090674e608f58b0a6bb1625037cf8e0d8b2cd6b92e6f",
+    "classifier_sensitivity.csv": "c10a0654a5a9a6b02ae696f643f81a16eb33a9196bfd6d32892ae9d9645d0a54",
+    "class_level_floor.csv": "e569fe1285633988a2a3e7a081ecfbed86b0de48452e68659ec10404b3d4dac8",
+    "cartpole_stale_constants.csv": "331c09847a761ab5fcc9101d971c1bf1118a21dd893e281eb9944b5f686f3530",
+    "cartpole_order_adapted_richardson.csv": "865de7c28e7aa7e26381161d2ec0f62933670c145cea37f10584209c5239ff26",
+    "attribute_sensitivity.csv": "9e4dccbf0dae1ef9b9316f6b5fdbdaea473e203a165ef820d663cd2cccbd3045"
+  },
+  "completed_utc": "2026-10-29T05:50:29.483853+00:00",
+  "full_run_scripts": 28,
+  "supplemental_scripts": 1,
+  "tests_passed": 6,
+  "result_protocol_checks_passed": 97,
+  "pdf_pages": 27,
+  "full_run_summary": [
+    "Running 28 scripts (quick=False, jobs=1)",
+    "  OK  benchmark_symbolic_lie_derivative.py                             0.0 min",
+    "  OK  benchmark_rk4_defect_high_precision.py                           0.0 min",
+    "  OK  benchmark_signed_defect_and_r2_asymptotics.py                    0.0 min",
+    "  OK  benchmark_shipped_acrobot_fingerprint.py                         0.6 min",
+    "  OK  benchmark_shipped_acrobot_calibrated_detectors.py                0.7 min",
+    "  OK  benchmark_false_alarm_floor_noise_guard.py                       0.8 min",
+    "  OK  benchmark_finite_step_classifier_validation.py                   1.0 min",
+    "  OK  benchmark_transfer_validation.py                                 5.0 min",
+    "  OK  benchmark_repeated_start_analysis.py                             0.0 min",
+    "  OK  benchmark_classifier_sensitivity.py                              0.6 min",
+    "  OK  benchmark_noise_sources_operating_envelope.py                    0.9 min",
+    "  OK  benchmark_cartpole_stale_constants.py                            0.4 min",
+    "  OK  benchmark_domain_randomisation.py                                0.6 min",
+    "  OK  benchmark_stale_constants_consequences.py                        0.0 min",
+    "  OK  benchmark_mujoco_integrator_order.py                             0.0 min",
+    "  OK  benchmark_mujoco_audit_robustness.py                             0.1 min",
+    "  OK  benchmark_quaternion_joint_order_control.py                      0.0 min",
+    "  OK  benchmark_quaternion_mechanism.py                                0.2 min",
+    "  OK  benchmark_mujoco_trajectory_error.py                             0.1 min",
+    "  OK  benchmark_order_estimator_comparison.py                          0.1 min",
+    "  OK  benchmark_regime_gated_fingerprint.py                            0.0 min",
+    "  OK  benchmark_head_to_head_predecessor_screen.py                     1.1 min",
+    "  OK  benchmark_matched_step_control.py                                0.5 min",
+    "  OK  benchmark_cartpole_order_adapted_richardson.py                   0.0 min",
+    "  OK  benchmark_parameter_fault_sweep.py                               0.1 min",
+    "  OK  benchmark_matched_compute_noise_fingerprint.py                   0.1 min",
+    "  OK  benchmark_floor_distribution.py                                  0.8 min",
+    "  OK  benchmark_parameter_identification_from_invariant.py             0.0 min",
+    "Results in /path/to/local/projects/dafd/Results"
+  ],
+  "supplemental_run_summary": [
+    "Running 1 scripts (quick=False, jobs=1)",
+    "  OK  benchmark_quadrature_assumption.py                               0.0 min",
+    "Results in /path/to/local/projects/dafd/Results"
+  ],
+  "final_source_sha256": {
+    "acrobot_mpmath.py": "30d3cc33bcd676b6f94c6aad1204605da4b62be4e96e4fa21cb2115f8693200d",
+    "benchmark_shipped_acrobot_calibrated_detectors.py": "85f7069f3b9187c8c6725824577848b274fcae194e07ab6f44c309915a2c0832",
+    "check_claims.py": "e27640cfc159da1051382933e1dde675d762502611b60f7cf551587720aff033",
+    "benchmark_parameter_fault_sweep.py": "14afa25d09062354fa17961ed61928334d22cd2fe4e587d3fa3692665647e921",
+    "benchmark_head_to_head_predecessor_screen.py": "a2a70167b4ec1c0601899223e648b4c0186b410fac5b3f6a6e17f39f25c47ccd",
+    "benchmark_parameter_identification_from_invariant.py": "3fa34ced9352004b6f462baf5a586d9040666692124a261a247555616d69d614",
+    "predecessor.py": "88fb5dd3de513216dec24041825616401c58d64c5c6980e9c621a6b39e412b37",
+    "benchmark_cartpole_stale_constants.py": "12fd7f0ab0ac2913f331a329c26ff46536a766ff2b818de8d2ad6b1a8e9219a3",
+    "benchmark_symbolic_lie_derivative.py": "4e1f0c5720887a471a272a7e760ffa37eb301c0d688b36b8d29a149b2362cf4d",
+    "run_all_experiments.py": "9f6cb8070d5456fed939dc6ddd5c3fea132ed83b6bf2584daf20ec3653c56f7a",
+    "benchmark_false_alarm_floor_noise_guard.py": "e82d1309c9f0d65327c41c32a61d60aa3b25284e73ec081826faac0293fa928f",
+    "benchmark_regime_gated_fingerprint.py": "209df7c6034114ba331e759bbbc5a18dda441dce3362d2d059532aaab3fe9fed",
+    "benchmark_cartpole_order_adapted_richardson.py": "32d90999becc5618a11ede9185356ed3cfa5d516c48608c1b46200356a2a2b0c",
+    "benchmark_shipped_acrobot_fingerprint.py": "73152df6677f3fe5204a8772c4e70a7672dd8b26717830dd97af97769930127c",
+    "shipped_classic_control.py": "07d5196047201d9c953affc184abb2723779a1020caf7eda92ed0cb6e9684c26",
+    "benchmark_noise_sources_operating_envelope.py": "4fa93b6c178b95f321a9735199203cc9f713a0c1a78ac78893371fc1ef838711",
+    "make_figures.py": "e030dead53224afab5b5c93245b6d3032288dac9503d7dba7a00c8bb2e539a40",
+    "benchmark_repeated_start_analysis.py": "904c02603c4f6a81ffb9a7a39db685fb8217db39881c7e4058b445676a779de3",
+    "benchmark_transfer_validation.py": "c75aa1251e08306a87b2c2f32053a8366f904b2d954e4a8d2926d2671d4bdd28",
+    "benchmark_mujoco_trajectory_error.py": "8de893924a986c1dcaf44b69a3e0bac96f642539b099ee3019c32704f3214103",
+    "benchmark_floor_distribution.py": "2b3ace8adfe3cb37464d77dd8b56dbd1dceed3d5f5f5c99f29dc537757216893",
+    "benchmark_signed_defect_and_r2_asymptotics.py": "3818c2ec0655773442150fdb50d32d91dbfb9eb06bfcb815d624bb71d4500ef3",
+    "benchmark_mujoco_audit_robustness.py": "f3e08e8d7a7da76486315c80261bd5461fd8b09d0489cea42f379a0334b36690",
+    "benchmark_mujoco_integrator_order.py": "713314bdbe868dec4723a49f64aea198a3a357778381363f2ae9957defb6b889",
+    "acrobot_parametric.py": "1176b5aca3e49b56e49188bad30c89abd51f1e4c0adfffe6e41884d0d7f03885",
+    "test_corrections.py": "2fc3d6780a1f03409a0a45013abed8f45db812ce4988650a13204f795c20b0cc",
+    "benchmark_quaternion_mechanism.py": "2b0fba413779a0275782e14fb40aad72be3d0919e5b3826e032e450da9c0aff7",
+    "shipped_acrobot.py": "5f8b07d3eebdc7d1a47ec41ecbd6540e3abcfbb60073434840098ea37e0bef49",
+    "benchmark_order_estimator_comparison.py": "b653a31b70bd6c8fa6c31ce8b1b00310da91871d9d7d2c7a36151212bf1ac6af",
+    "acrobot.py": "e6ff5f8dd3e1abafa5ad37abd8e5596ffd13c8e6f73e3a31ebf2d6f0411b600b",
+    "benchmark_matched_step_control.py": "9c36b08dc0a087cde56ed144dde683a01b056e014d11b3fce036cd14342fa3f2",
+    "benchmark_matched_compute_noise_fingerprint.py": "52b7840fe61fc9e545317fbe5551aa89e1e22843041ff365a976f948e3db3928",
+    "benchmark_domain_randomisation.py": "a21e21c2a799b4634817f49e496dbc3563dac5fd10f23cd13fae19425c0771e4",
+    "benchmark_stale_constants_consequences.py": "3eb681e2b8d32960a23dec694d5c5539e93eee57a80d12e03e91519093a39ec2",
+    "make_tables.py": "8bb29cd6c300984a7f69ce7fe23406bd9d3fd1a124d5dd894c38a2da23c63064",
+    "benchmark_classifier_sensitivity.py": "b4f3697b366de094cc3f4f19da09ecfc8ad03ea10b987363fff691b5a477aab6",
+    "results_io.py": "29772d75c90a0421d36e42fbce715f058b9db2ff2d3fd8b60d07a3e9a77c4efd",
+    "benchmark_rk4_defect_high_precision.py": "0095df6b362def3c4e0d94195dfa46fe2f99661c97baca8510c7a3c2bf78ab12",
+    "shipped_cartpole.py": "d71ab67ea0bb28e20f16c5606c595ea1e44199429ed59ec167b876c7ac0d4145",
+    "fingerprint.py": "5e1c14e0f0445c9ff0024a155f2b5aa9354e6d07a46e802963eec99ec8092b4b",
+    "benchmark_finite_step_classifier_validation.py": "bb7dbfd84d62833bc16b4df777583697f2d422057a6f4078740dfed91ecf1d4e",
+    "benchmark_quaternion_joint_order_control.py": "3129c2abbaa0a0fff533048a9945f075429b5ef77020536e07c14854bb25f5ec",
+    "benchmark_quadrature_assumption.py": "5ae7201be17a8bd729e2c433c1054acfa06eedaaf0b3ce52e8371440a2ea6124"
+  },
+  "result_sha256": {
+    "mujoco_audit_seed_trials.csv": "8c67d5524b879eabec472dbbbafe5ddefc79eb0e334c84b358074c8f35d146c0",
+    "mujoco_audit_seeds.csv": "bfea4116844ad42474f022747ec14abce77940dff6238ce9b19201aeb61f7f61",
+    "noise_sources_operating_envelope.csv": "12bce4e2765a3a586c8b550d7e51396ec2f632d5f6be4df595f7c09449a0a27f",
+    "transfer_horizon.csv": "a40c7cfe48948ac9be0cab256094971e1bd7ecb11f7e4ad7fc4a617ab5ba764d",
+    "transfer_trials.csv": "892142b18813c89b9aa8d55c61b19b64ec04a4ee10976498489e96febb1044e0",
+    "matched_compute_noise_fingerprint.csv": "c44e5818fc52812ff3511a3215c4a26efa3c870f8e3d268ebdfea6b6b5af3f9e",
+    "mujoco_integrator_order_trials.csv": "af86418cc90f3bea3fa19146f87dd427a8fd38c5379b628ed832cf8109b3ae72",
+    "domain_randomisation_audit.csv": "855cc14380e22e34d90b4ea4d55e9e631c4240a08e50c5c3543ff494e318d054",
+    "finite_step_sign_change_scan.csv": "5c875abb6660f5b1eca155f0fa6278ec2e0f2212cfec2087e4ae74c9531c9ab2",
+    "cartpole_stale_constants.csv": "e870afe7ca575d6b394196aede55c5fd0652642e46b9fb12c41a95d58aa92b0d",
+    "parameter_identification.csv": "6ac4f36600acb1d04706a8fb1bc7acd7bbe4f7a90bc1f0cd6b9df9d1cd75a6c9",
+    "parameter_fault_sweep_summary.csv": "77f3f7f16055604d5ec824f175c8fbf548a653b7ac9ebbdc687db05b90efe25d",
+    "r2_asymptotics.csv": "2abc8af78a0e52c071090b37a708b09f0ccdef20003ba2811c81cd38a400e731",
+    "mujoco_trajectory_error.csv": "a098c720356fa9d751dd9e2b45edd2b030a1410b6969718f3b8ae93f8ca9e1e9",
+    "quadrature_assumption_trials.csv": "ebfd9fe2843fb2348d1bd101031b7f29a299c46760f9e5394e625c0223857b16",
+    "class_level_floor.csv": "f8a75ba4cec9fa3cd56bded8c08df6f5d9c836c696a3bb9b8e29cdf6a4b5a81c",
+    "quaternion_mechanism_replication.csv": "6607d5808445fda4e368fc396d0c2791e816cda22f21b01fa131daab817f88aa",
+    "mujoco_audit_shipped_step_trials.csv": "dad6d446e12dc1b0959589137031945aacd182915b3f53df2dd99378496751b1",
+    "cartpole_order_adapted_richardson.csv": "8da2c95b5df27900288fc8e9918f41852c7ed0afcae9e9a958e299d936eb4e39",
+    "stale_constants_divergence.csv": "ee4f4f82684e452ba7780ccc37e490a8e01781d4f0a462d58e3586dbd9780d6d",
+    "parameter_fault_sweep.csv": "dc52c2bf1ea274dcb827a620a959cc958e777fd6b8a32a50e1776f61d3bdb167",
+    "shipped_acrobot_fingerprint_trials.csv": "ad0e860a6ed47d31dcad1aa5880c29c3dbbe683e8844995cf156f11fb1c61d59",
+    "finite_step_trials.csv": "a2a469585405a2a2a0b4d6f49d99dad9cba473e1375ea3aa43d6117a1f71d0c3",
+    "false_alarm_healthy.csv": "61ec09ac364d67729d92d72d41ad78874ea0626868a7914c9f570b203697821f",
+    "regime_gated_fingerprint.csv": "0c1e05ed771b8418f11d48bf9aa7953549addb199ece1c9fb5b55fb5ab618ce5",
+    "energy_preserving_integrator.csv": "1257ec32d7655bb279ac2c7f0713e4ceccfeb7e74d7f3a53753f79323a6306a7",
+    "quadrature_assumption_summary.csv": "9c0b951761faf66559943284ea61be8a437ab7ecdb35e91532074fa654b7a034",
+    "order_estimator_comparison.csv": "472459dc2b4900db83e8b7c3496aab4bb76467d1280175509f5f456c5d85818c",
+    "mujoco_integrator_order_audit.csv": "6dfed9b645c167453f4da84551459670bbd6b2e97eebbaea2d35707910b7a0c7",
+    "rk4_signed_defect.csv": "58e2f2a7a59cd2c106816664f32a11639e05bcc7e3ced85ec627031e5a1dac68",
+    "attribute_sensitivity.csv": "ae0f09315cec1e9ed694749fa536e4bb0ca09a05cc685643aacf30462a227f7c",
+    "quaternion_mechanism_convergence.csv": "513d61ef6e2417b5a4bb5f51eee37d653645e50f3efefe5f61f07b82369c958f",
+    "transfer_validation.csv": "4d4e1146f379473f5600d5f167716aff42337fd9091b62998713658a650ad60e",
+    "finite_step_validation.csv": "bc84729df2150a710ac8c1270d8595f49c1c3dc4a42155c517f4230288a51b60",
+    "quaternion_joint_order_control.csv": "a7eb655d8aac9903f56ee85fef3150b4817d40a557834bcf304e6747ddfa10a1",
+    "shipped_acrobot_fingerprint_summary.csv": "3aaf7fbc65b77d67b079f28a8648fc7c6cd24df15083a0c48778a2f9c77811f0",
+    "classifier_sensitivity.csv": "c10a0654a5a9a6b02ae696f643f81a16eb33a9196bfd6d32892ae9d9645d0a54",
+    "quaternion_mechanism_local_error.csv": "eddcbd1c28b7c0acdebf3873973f7bcefc71ef22b1a3df00ffc5f98ef0548dae",
+    "head_to_head_predecessor_screen.csv": "f568f5ec4e00381695c4cf3cb4d76dbe94ba790ddce7c216d40b45a7a8853138",
+    "shipped_acrobot_calibrated_detectors.csv": "c23126d1ecf9ac595dbd60518c4cdb6dcf6dc8c5fcdf588e84a67e3d95f101f8",
+    "quaternion_mechanism_order.csv": "dcb28436e4f7f1ef405c303591994f5d9b5f29f3f12f1a776548bec3400f57d8",
+    "symbolic_lie_derivative_acrobot.csv": "34b2c5f039115875deea8ace0ba24f522ca7999483ece4fe8b3a6fe7d90ba94a",
+    "repeated_start_summary.csv": "bb9dd85ad0de1a14cc34b07f64eb9da76ae58622a6428ef69a2797398e526736",
+    "noise_guard.csv": "b7173f07e96c4a56ab85377b97f7c92848cdb9a2955d37930e154b2249350699",
+    "floor_distribution.csv": "7f38f0cb240b985250fd7d8ba29e3ea15ca06394f0f26ef357bdc929c5c2d291",
+    "rk4_defect_high_precision.csv": "97263cc50b416c96abb7502965c42fa31b343b63c5ea085d3c41fc3aa6424140",
+    "mujoco_audit_shipped_step.csv": "773431dc485ece76908d528e03b1c665bd12c28ea78de5026fc60c8f61217513",
+    "matched_step_control.csv": "9a87d4789c0bca9ae9bcff5610b52dd87c22871ccd023288eb5e03dd44a5637e"
+  },
+  "paper_source_sha256": "675c8903dce55c3c9fde8bc6c29a0e6b4c61340d71a6fe82b1fc5f0adfd4306f",
+  "paper_pdf_sha256": "3deb9be7e788e51b196387bd052a2c98a0d59f552916ac2f693541400fc12ecb",
+  "comparison_to_pre_refinement_results": [
+    {
+      "file": "attribute_sensitivity.csv",
+      "column_order_changed": false,
+      "different_columns_beyond_numeric_tolerance": []
+    },
+    {
+      "file": "cartpole_order_adapted_richardson.csv",
+      "column_order_changed": false,
+      "different_columns_beyond_numeric_tolerance": []
+    },
+    {
+      "file": "cartpole_stale_constants.csv",
+      "column_order_changed": false,
+      "different_columns_beyond_numeric_tolerance": []
+    },
+    {
+      "file": "class_level_floor.csv",
+      "column_order_changed": false,
+      "different_columns_beyond_numeric_tolerance": []
+    },
+    {
+      "file": "domain_randomisation_audit.csv",
+      "column_order_changed": false,
+      "different_columns_beyond_numeric_tolerance": []
+    },
+    {
+      "file": "energy_preserving_integrator.csv",
+      "column_order_changed": false,
+      "different_columns_beyond_numeric_tolerance": []
+    },
+    {
+      "file": "false_alarm_healthy.csv",
+      "column_order_changed": false,
+      "different_columns_beyond_numeric_tolerance": []
+    },
+    {
+      "file": "finite_step_sign_change_scan.csv",
+      "column_order_changed": false,
+      "different_columns_beyond_numeric_tolerance": [
+        "float64_floor"
+      ]
+    },
+    {
+      "file": "floor_distribution.csv",
+      "column_order_changed": false,
+      "different_columns_beyond_numeric_tolerance": []
+    },
+    {
+      "file": "head_to_head_predecessor_screen.csv",
+      "column_order_changed": false,
+      "different_columns_beyond_numeric_tolerance": []
+    },
+    {
+      "file": "matched_compute_noise_fingerprint.csv",
+      "column_order_changed": false,
+      "different_columns_beyond_numeric_tolerance": []
+    },
+    {
+      "file": "matched_step_control.csv",
+      "column_order_changed": false,
+      "different_columns_beyond_numeric_tolerance": []
+    },
+    {
+      "file": "mujoco_trajectory_error.csv",
+      "column_order_changed": false,
+      "different_columns_beyond_numeric_tolerance": []
+    },
+    {
+      "file": "noise_guard.csv",
+      "column_order_changed": false,
+      "different_columns_beyond_numeric_tolerance": []
+    },
+    {
+      "file": "noise_sources_operating_envelope.csv",
+      "column_order_changed": false,
+      "different_columns_beyond_numeric_tolerance": []
+    },
+    {
+      "file": "parameter_fault_sweep.csv",
+      "column_order_changed": false,
+      "different_columns_beyond_numeric_tolerance": []
+    },
+    {
+      "file": "parameter_fault_sweep_summary.csv",
+      "column_order_changed": false,
+      "different_columns_beyond_numeric_tolerance": []
+    },
+    {
+      "file": "quaternion_mechanism_convergence.csv",
+      "column_order_changed": false,
+      "different_columns_beyond_numeric_tolerance": []
+    },
+    {
+      "file": "quaternion_mechanism_local_error.csv",
+      "column_order_changed": false,
+      "different_columns_beyond_numeric_tolerance": []
+    },
+    {
+      "file": "quaternion_mechanism_order.csv",
+      "column_order_changed": false,
+      "different_columns_beyond_numeric_tolerance": []
+    },
+    {
+      "file": "quaternion_mechanism_replication.csv",
+      "column_order_changed": false,
+      "different_columns_beyond_numeric_tolerance": []
+    },
+    {
+      "file": "r2_asymptotics.csv",
+      "column_order_changed": false,
+      "different_columns_beyond_numeric_tolerance": []
+    },
+    {
+      "file": "rk4_defect_high_precision.csv",
+      "column_order_changed": false,
+      "different_columns_beyond_numeric_tolerance": []
+    },
+    {
+      "file": "rk4_signed_defect.csv",
+      "column_order_changed": false,
+      "different_columns_beyond_numeric_tolerance": []
+    },
+    {
+      "file": "shipped_acrobot_calibrated_detectors.csv",
+      "column_order_changed": false,
+      "different_columns_beyond_numeric_tolerance": []
+    },
+    {
+      "file": "stale_constants_divergence.csv",
+      "column_order_changed": false,
+      "different_columns_beyond_numeric_tolerance": []
+    },
+    {
+      "file": "symbolic_lie_derivative_acrobot.csv",
+      "column_order_changed": false,
+      "different_columns_beyond_numeric_tolerance": []
+    },
+    {
+      "file": "transfer_horizon.csv",
+      "column_order_changed": false,
+      "different_columns_beyond_numeric_tolerance": []
+    },
+    {
+      "file": "transfer_trials.csv",
+      "column_order_changed": true,
+      "different_columns_beyond_numeric_tolerance": []
+    },
+    {
+      "file": "transfer_validation.csv",
+      "column_order_changed": false,
+      "different_columns_beyond_numeric_tolerance": []
+    }
+  ],
+  "comparison_notes": "Numeric comparison uses rtol=1e-10 and atol=1e-14. Dict order and CSV column order are ignored. This is not a bitwise-reproduction claim. The sign-scan floor changes by exact machine epsilon / 2.2e-16; labels are unchanged. Initial source hashes describe the launched 28-script run; final hashes include the subsequently wired supplemental experiment and build/runner refinements."
+}

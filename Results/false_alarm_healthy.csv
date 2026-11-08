@@ -1,0 +1,2 @@
+n_healthy,classes,n_flagged,false_alarm_rate,upper_95_rule_of_three
+1000,{'consistent': 1000},0,0.0,0.003

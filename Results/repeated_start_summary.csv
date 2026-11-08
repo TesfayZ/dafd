@@ -1,0 +1,11 @@
+dataset,population,event,n_starts,n_configs,successes,rate,wilson_lo,wilson_hi,n_evaluations,n_abstained,coverage,starts_with_abstention
+transfer,euler_top,any_flag,40,12,0,0.0,0.0,0.08762453925039232,480,29,0.9395833333333333,20
+transfer,euler_top,all_model,40,9,40,1.0,0.9123754607496077,1.0,360,0,1.0,0
+transfer,henon_heiles,any_flag,40,12,0,0.0,0.0,0.08762453925039232,480,108,0.775,40
+transfer,henon_heiles,all_model,40,9,40,1.0,0.9123754607496077,1.0,360,0,1.0,0
+transfer,kepler,any_flag,40,12,0,0.0,0.0,0.08762453925039232,480,2,0.9958333333333333,2
+transfer,kepler,all_model,40,9,40,1.0,0.9123754607496077,1.0,360,0,1.0,0
+finite_step,development,any_flag,40,12,0,0.0,0.0,0.08762453925039232,480,0,1.0,0
+finite_step,development,all_model,40,9,40,1.0,0.9123754607496077,1.0,360,0,1.0,0
+finite_step,held_out,any_flag,40,12,2,0.05,0.013820377146101098,0.165041708179252,480,0,1.0,0
+finite_step,held_out,all_model,40,9,40,1.0,0.9123754607496077,1.0,360,0,1.0,0

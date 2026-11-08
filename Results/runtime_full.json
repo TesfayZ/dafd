@@ -1,0 +1,180 @@
+{
+  "started_utc": "2026-11-06T12:26:09.121552+00:00",
+  "completed_utc": "2026-11-06T12:40:56.460550+00:00",
+  "scope": "full Python benchmark suite",
+  "includes_native_source_build": false,
+  "includes_paper_build": false,
+  "wall_seconds": 887.3389996779999,
+  "jobs": 1,
+  "quick": false,
+  "python": "3.14.6",
+  "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "processor": "",
+  "logical_cpus": 12,
+  "versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "sympy": "1.14.0",
+    "pandas": "3.1.0",
+    "gymnasium": "1.4.0",
+    "mujoco": "3.16.0"
+  },
+  "scripts": [
+    {
+      "script": "benchmark_acrobot_step_agreement.py",
+      "exit_code": 0,
+      "wall_seconds": 0.38816094398498535
+    },
+    {
+      "script": "benchmark_self_convergence.py",
+      "exit_code": 0,
+      "wall_seconds": 5.75856614112854
+    },
+    {
+      "script": "benchmark_symbolic_lie_derivative.py",
+      "exit_code": 0,
+      "wall_seconds": 0.976264238357544
+    },
+    {
+      "script": "benchmark_rk4_defect_high_precision.py",
+      "exit_code": 0,
+      "wall_seconds": 0.06119275093078613
+    },
+    {
+      "script": "benchmark_signed_defect_and_r2_asymptotics.py",
+      "exit_code": 0,
+      "wall_seconds": 0.14657163619995117
+    },
+    {
+      "script": "benchmark_shipped_acrobot_fingerprint.py",
+      "exit_code": 0,
+      "wall_seconds": 33.42060828208923
+    },
+    {
+      "script": "benchmark_shipped_acrobot_calibrated_detectors.py",
+      "exit_code": 0,
+      "wall_seconds": 41.432515144348145
+    },
+    {
+      "script": "benchmark_false_alarm_floor_noise_guard.py",
+      "exit_code": 0,
+      "wall_seconds": 49.341970443725586
+    },
+    {
+      "script": "benchmark_finite_step_classifier_validation.py",
+      "exit_code": 0,
+      "wall_seconds": 55.85975790023804
+    },
+    {
+      "script": "benchmark_transfer_validation.py",
+      "exit_code": 0,
+      "wall_seconds": 364.87567615509033
+    },
+    {
+      "script": "benchmark_repeated_start_analysis.py",
+      "exit_code": 0,
+      "wall_seconds": 0.3888099193572998
+    },
+    {
+      "script": "benchmark_classifier_sensitivity.py",
+      "exit_code": 0,
+      "wall_seconds": 28.96892786026001
+    },
+    {
+      "script": "benchmark_noise_sources_operating_envelope.py",
+      "exit_code": 0,
+      "wall_seconds": 48.82427668571472
+    },
+    {
+      "script": "benchmark_cartpole_stale_constants.py",
+      "exit_code": 0,
+      "wall_seconds": 20.897389888763428
+    },
+    {
+      "script": "benchmark_domain_randomisation.py",
+      "exit_code": 0,
+      "wall_seconds": 34.966952085494995
+    },
+    {
+      "script": "benchmark_stale_constants_consequences.py",
+      "exit_code": 0,
+      "wall_seconds": 0.4137992858886719
+    },
+    {
+      "script": "benchmark_mujoco_integrator_order.py",
+      "exit_code": 0,
+      "wall_seconds": 2.1191930770874023
+    },
+    {
+      "script": "benchmark_mujoco_audit_robustness.py",
+      "exit_code": 0,
+      "wall_seconds": 3.73603892326355
+    },
+    {
+      "script": "benchmark_quaternion_joint_order_control.py",
+      "exit_code": 0,
+      "wall_seconds": 0.5795860290527344
+    },
+    {
+      "script": "benchmark_quaternion_mechanism.py",
+      "exit_code": 0,
+      "wall_seconds": 9.944110631942749
+    },
+    {
+      "script": "benchmark_quadrature_assumption.py",
+      "exit_code": 0,
+      "wall_seconds": 0.8211588859558105
+    },
+    {
+      "script": "benchmark_mujoco_trajectory_error.py",
+      "exit_code": 0,
+      "wall_seconds": 3.5666463375091553
+    },
+    {
+      "script": "benchmark_order_estimator_comparison.py",
+      "exit_code": 0,
+      "wall_seconds": 5.645819425582886
+    },
+    {
+      "script": "benchmark_regime_gated_fingerprint.py",
+      "exit_code": 0,
+      "wall_seconds": 1.6770834922790527
+    },
+    {
+      "script": "benchmark_head_to_head_predecessor_screen.py",
+      "exit_code": 0,
+      "wall_seconds": 65.01645708084106
+    },
+    {
+      "script": "benchmark_matched_step_control.py",
+      "exit_code": 0,
+      "wall_seconds": 35.71214461326599
+    },
+    {
+      "script": "benchmark_cartpole_order_adapted_richardson.py",
+      "exit_code": 0,
+      "wall_seconds": 1.2845196723937988
+    },
+    {
+      "script": "benchmark_parameter_fault_sweep.py",
+      "exit_code": 0,
+      "wall_seconds": 7.689100503921509
+    },
+    {
+      "script": "benchmark_matched_compute_noise_fingerprint.py",
+      "exit_code": 0,
+      "wall_seconds": 6.838631629943848
+    },
+    {
+      "script": "benchmark_floor_distribution.py",
+      "exit_code": 0,
+      "wall_seconds": 54.848989963531494
+    },
+    {
+      "script": "benchmark_parameter_identification_from_invariant.py",
+      "exit_code": 0,
+      "wall_seconds": 1.0723998546600342
+    }
+  ],
+  "failures": []
+}

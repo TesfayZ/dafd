@@ -1,0 +1,7 @@
+environment,declared_order,K,macro_h,steps_per_run,admissible_fraction,ungated,gated
+Hopper-v5,4,4,0.032,24,0.6145833333333334,{'unstable': 24},"{'undetermined': 14, 'consistent': 10}"
+Hopper-v5,4,8,0.064,12,0.6006944444444445,{'unstable': 24},"{'consistent': 20, 'undetermined': 3, 'no-admissible-steps': 1}"
+Walker2d-v5,4,4,0.032,24,0.48784722222222215,{'unstable': 24},"{'consistent': 21, 'undetermined': 3}"
+Walker2d-v5,4,8,0.064,12,0.46527777777777785,{'unstable': 24},"{'no-admissible-steps': 7, 'consistent': 17}"
+HalfCheetah-v5,1,1,0.05,20,0.09166666666666667,"{'blowup': 14, 'unstable': 10}","{'unstable': 1, 'no-admissible-steps': 20, 'order-1': 2, 'model': 1}"
+Ant-v5,4,1,0.05,14,0.31547619047619047,{'unstable': 24},"{'no-admissible-steps': 14, 'order-2': 10}"

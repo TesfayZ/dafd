@@ -1,0 +1,26 @@
+Results/quick/
+
+external/
+submissions/
+venv/
+.venv/
+.pytest_cache/
+.matplotlib/
+__pycache__/
+*.pyc
+doc/*.aux
+doc/*.log
+doc/*.out
+doc/*.bbl
+doc/*.blg
+doc/*.fls
+doc/*.fdb_latexmk
+doc/*.synctex.gz
+# partial files written by tagged finite-step runs (merged into finite_step_validation.csv)
+Results/finite_step_validation__*.csv
+Results/finite_step_trials__*.csv
+MUJOCO_LOG.TXT
+
+Results/*review*.json
+Results/integrity_*.json
+Results/text_overlap*.json

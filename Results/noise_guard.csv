@@ -1,0 +1,21 @@
+case,sigma_E,n,unguarded,guarded
+healthy,0.0,60,{'consistent': 60},{'consistent': 60}
+healthy,1e-10,60,{'consistent': 60},{'consistent': 60}
+healthy,1e-08,60,{'consistent': 60},"{'consistent': 58, 'undetermined': 2}"
+healthy,1e-06,60,"{'model': 37, 'consistent': 23}","{'undetermined': 59, 'consistent': 1}"
+healthy,0.0001,60,"{'model': 59, 'order-1': 1}",{'undetermined': 60}
+m2+1e-2 (model),0.0,30,{'model': 30},{'model': 30}
+m2+1e-2 (model),1e-10,30,{'model': 30},{'model': 30}
+m2+1e-2 (model),1e-08,30,{'model': 30},{'model': 30}
+m2+1e-2 (model),1e-06,30,{'model': 30},{'model': 30}
+m2+1e-2 (model),0.0001,30,{'model': 30},{'model': 30}
+m2+1e-4 (model),0.0,30,{'model': 30},{'model': 30}
+m2+1e-4 (model),1e-10,30,{'model': 30},{'model': 30}
+m2+1e-4 (model),1e-08,30,{'model': 30},{'model': 30}
+m2+1e-4 (model),1e-06,30,{'model': 30},{'model': 30}
+m2+1e-4 (model),0.0001,30,{'model': 30},{'undetermined': 30}
+euler,0.0,30,{'order-1': 30},{'order-1': 30}
+euler,1e-10,30,{'order-1': 30},{'order-1': 30}
+euler,1e-08,30,{'order-1': 30},{'order-1': 30}
+euler,1e-06,30,{'order-1': 30},{'order-1': 30}
+euler,0.0001,30,{'order-1': 30},{'order-1': 30}

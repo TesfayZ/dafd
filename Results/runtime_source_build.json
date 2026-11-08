@@ -1,0 +1,13 @@
+{
+  "started_utc": "2026-11-06T12:32:00.923554+00:00",
+  "completed_utc": "2026-11-06T12:34:16.690483+00:00",
+  "commit": "8892bf44b07c20f0e4dcd8b8c34ca46683b97b76",
+  "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "python": "3.14.6",
+  "cmake": "cmake version 4.4.4",
+  "compiler": "g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+  "jobs": 4,
+  "fetch_configure_build_seconds": 128.29330884499996,
+  "total_wall_seconds": 135.90713037499995,
+  "note": "Build may reuse existing sources and compiled objects; not an isolated patch test"
+}

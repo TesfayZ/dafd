@@ -1,0 +1,4 @@
+dt,T,screen_at_dt/1,screen_at_dt/2,screen_at_dt/4,screen_at_dt/8,direct_reference_step_compare
+0.2,10.0,0.1,0.01,0.0001,1e-05,1e-13
+0.1,10.0,0.01,0.0001,1e-05,1e-07,1e-13
+0.05,10.0,0.0001,1e-05,1e-07,1e-08,1e-13

@@ -1,0 +1,15 @@
+environment,attribute,factor,max_step_change,no_op
+Acrobot,LINK_LENGTH_1,2.0,0.33506976105949404,False
+Acrobot,LINK_LENGTH_2,2.0,0.0,True
+Acrobot,LINK_MASS_1,2.0,0.3814383607880796,False
+Acrobot,LINK_MASS_2,2.0,0.6982180071910633,False
+Acrobot,LINK_COM_POS_1,2.0,0.061012569903176495,False
+Acrobot,LINK_COM_POS_2,2.0,0.40577635451805294,False
+Acrobot,LINK_MOI,2.0,0.5947254618402132,False
+CartPole,masscart,2.0,0.0,True
+CartPole,masspole,2.0,0.005238821811401256,False
+CartPole,length,2.0,0.03520880034789471,False
+CartPole,gravity,2.0,0.07041785186546304,False
+Pendulum,g,2.0,0.5982038768304212,False
+Pendulum,l,2.0,0.2991019384152106,False
+Pendulum,m,2.0,0.0,True

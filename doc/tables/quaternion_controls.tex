@@ -1,0 +1,11 @@
+\begin{tabular}{llcl}
+\toprule
+Model & Declared & Median $(a,b,c)$ & Classes (24 starts) \\
+\midrule
+free (quaternion) + arm, gravity & RK4 & $(2.00,2.00,2.00)$ & order-2 24 \\
+free (quaternion) + arm, gravity & Euler & $(1.00,1.00,1.00)$ & consistent 24 \\
+3 slides + 3 hinges + arm, gravity & RK4 & $(4.04,4.02,4.01)$ & consistent 23, order-3 1 \\
+3 slides + 3 hinges + arm, gravity & Euler & $(1.00,1.00,1.00)$ & consistent 19, blowup 4, unstable 1 \\
+torque-free asymmetric body, free joint, no gravity & RK4 & $(4.03,4.01,4.00)$ & consistent 14, undetermined 10 \\
+\bottomrule
+\end{tabular}

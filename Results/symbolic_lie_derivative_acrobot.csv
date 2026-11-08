@@ -1,0 +1,9 @@
+quantity,value
+det M (m2=1),-(4*c2**2 - 45)/16
+NF(det*L_f E) at m2=1,0
+NF(L_f(c1^2+s1^2-1)),0
+NF(L_f(c2^2+s2^2-1)),0
+signature rho(0),0
+d rho / d eps at 0 (terms),14
+g(x0) = d D / d eps at start state,-0.0493076006574702
+d rho / d eps at 0 (factored),-(-490*c1*c2*s2*w1 + 1764*c1*s2*w1 + 1764*c1*s2*w2 + 588*c2*s1*w1 + 588*c2*s1*w2 - 10*c2*s2*w1**3 + 120*c2*s2*w1**2*w2 + 120*c2*s2*w1*w2**2 + 40*c2*s2*w2**3 + 294*s1*s2**2*w1 + 1176*s1*w1 + 55*s2*w1**3 - 70*s2*w1**2*w2 - 125*s2*w1*w2**2)/160

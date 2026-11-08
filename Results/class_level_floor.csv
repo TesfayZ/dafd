@@ -1,0 +1,21 @@
+attribute,eps,n,classes,n_model
+LINK_MASS_2,1e-09,30,{'consistent': 30},0
+LINK_MASS_2,1e-08,30,{'consistent': 30},0
+LINK_MASS_2,1e-07,30,"{'consistent': 29, 'model': 1}",1
+LINK_MASS_2,1e-06,30,"{'model': 14, 'consistent': 16}",14
+LINK_MASS_2,3e-06,30,"{'model': 26, 'consistent': 4}",26
+LINK_COM_POS_1,1e-09,30,{'consistent': 30},0
+LINK_COM_POS_1,1e-08,30,{'consistent': 30},0
+LINK_COM_POS_1,1e-07,30,{'consistent': 30},0
+LINK_COM_POS_1,1e-06,30,"{'consistent': 29, 'model': 1}",1
+LINK_COM_POS_1,3e-06,30,"{'consistent': 23, 'model': 7}",7
+LINK_MOI,1e-09,30,{'consistent': 30},0
+LINK_MOI,1e-08,30,{'consistent': 30},0
+LINK_MOI,1e-07,30,"{'consistent': 29, 'model': 1}",1
+LINK_MOI,1e-06,30,"{'model': 14, 'consistent': 16}",14
+LINK_MOI,3e-06,30,"{'model': 26, 'consistent': 4}",26
+LINK_LENGTH_1,1e-09,30,{'consistent': 30},0
+LINK_LENGTH_1,1e-08,30,{'consistent': 30},0
+LINK_LENGTH_1,1e-07,30,{'consistent': 30},0
+LINK_LENGTH_1,1e-06,30,"{'consistent': 20, 'model': 10}",10
+LINK_LENGTH_1,3e-06,30,"{'model': 23, 'consistent': 7}",23

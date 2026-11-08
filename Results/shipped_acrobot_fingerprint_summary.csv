@@ -1,0 +1,37 @@
+case,n,classes,n_model,n_consistent
+healthy,150,{'consistent': 150},0,150
+LINK_MASS_1 +1e-05,30,"{'model': 29, 'consistent': 1}",29,1
+LINK_MASS_1 +0.0001,30,{'model': 30},30,0
+LINK_MASS_1 +0.001,30,{'model': 30},30,0
+LINK_MASS_1 +0.01,30,{'model': 30},30,0
+LINK_MASS_2 +1e-05,30,{'model': 30},30,0
+LINK_MASS_2 +0.0001,30,{'model': 30},30,0
+LINK_MASS_2 +0.001,30,{'model': 30},30,0
+LINK_MASS_2 +0.01,30,{'model': 30},30,0
+LINK_LENGTH_1 +1e-05,30,{'model': 30},30,0
+LINK_LENGTH_1 +0.0001,30,{'model': 30},30,0
+LINK_LENGTH_1 +0.001,30,{'model': 30},30,0
+LINK_LENGTH_1 +0.01,30,{'model': 30},30,0
+LINK_COM_POS_1 +1e-05,30,"{'model': 26, 'consistent': 4}",26,4
+LINK_COM_POS_1 +0.0001,30,{'model': 30},30,0
+LINK_COM_POS_1 +0.001,30,{'model': 30},30,0
+LINK_COM_POS_1 +0.01,30,{'model': 30},30,0
+LINK_COM_POS_2 +1e-05,30,{'model': 30},30,0
+LINK_COM_POS_2 +0.0001,30,{'model': 30},30,0
+LINK_COM_POS_2 +0.001,30,{'model': 30},30,0
+LINK_COM_POS_2 +0.01,30,{'model': 30},30,0
+LINK_MOI +1e-05,30,{'model': 30},30,0
+LINK_MOI +0.0001,30,{'model': 30},30,0
+LINK_MOI +0.001,30,{'model': 30},30,0
+LINK_MOI +0.01,30,{'model': 30},30,0
+CAT m2=1.3,30,"{'unstable': 5, 'model': 25}",25,0
+CAT l1=1.2,30,"{'model': 28, 'unstable': 2}",28,0
+CAT lc2=0.6,30,"{'model': 27, 'unstable': 3}",27,0
+CAT I=1.5 (both links),30,"{'model': 26, 'unstable': 4}",26,0
+CAT nips (Coriolis dropped),30,"{'model': 19, 'unstable': 11}",19,0
+CAT euler,30,{'order-1': 30},0,0
+rk2,30,"{'order-2': 20, 'order-3': 8, 'model': 1, 'consistent': 1}",1,1
+euler + m2 +1e-2,30,{'order-1': 30},0,0
+euler + m2 +1,30,{'unstable': 30},0,0
+rk2 + m2 +1e-2,30,{'model': 30},30,0
+rk2 + m2 +1e-1,30,{'model': 30},30,0

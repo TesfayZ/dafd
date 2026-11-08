@@ -1,0 +1,12 @@
+\begin{tabular}{lrcll}
+\toprule
+Environment (declared) & Macro $h$ & Admissible steps & Ungated (24 runs) & Gated \\
+\midrule
+Hopper (RK4) & 0.032 & 61\% & unstable 24 & undetermined 14, consistent 10 \\
+Hopper (RK4) & 0.064 & 60\% & unstable 24 & consistent 20, undetermined 3, none 1 \\
+Walker2d (RK4) & 0.032 & 49\% & unstable 24 & consistent 21, undetermined 3 \\
+Walker2d (RK4) & 0.064 & 47\% & unstable 24 & consistent 17, none 7 \\
+HalfCheetah (Euler) & 0.05 & 9\% & blowup 14, unstable 10 & none 20, order-1 2, model 1, unstable 1 \\
+Ant (RK4) & 0.05 & 32\% & unstable 24 & none 14, order-2 10 \\
+\bottomrule
+\end{tabular}

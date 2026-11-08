@@ -1,0 +1,6 @@
+h,replica_rotation_max,replica_omega_max,embedded_rotation_median,scheme,classes,median_a,median_b,median_c
+0.05,2.719479911021036e-16,1.3322676295501878e-15,0.00037219586703405504,,,,,
+0.01,2.278571006769956e-16,4.440892098500626e-16,3.251601692246562e-06,,,,,
+0.05,,,,replica of MuJoCo RK4 update,{'order-2': 24},2.01,2.0,2.0
+0.05,,,,embedded RK4 + renormalisation,{'consistent': 24},4.61,4.39,4.14
+0.05,,,,commutator-free Lie RK4 (CF4),{'consistent': 24},4.31,4.07,4.02

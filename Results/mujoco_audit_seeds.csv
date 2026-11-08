@@ -1,0 +1,10 @@
+environment,seed,K,macro_h,classes,median_a,median_b,median_c
+Ant-v5,0,1,0.01,{'order-2': 24},2.0,2.0,2.0
+Ant-v5,1,1,0.01,"{'order-2': 23, 'undetermined': 1}",2.0,2.0,2.0
+Ant-v5,2,1,0.01,"{'order-2': 23, 'undetermined': 1}",2.0,2.0,2.0
+Humanoid-v5,0,1,0.003,{'order-2': 24},2.0,2.0,2.0
+Humanoid-v5,1,1,0.003,{'order-2': 24},2.01,2.0,2.0
+Humanoid-v5,2,1,0.003,"{'order-2': 23, 'undetermined': 1}",2.0,2.0,2.0
+Hopper-v5,0,64,0.128,{'consistent': 24},3.99,4.0,4.0
+Hopper-v5,1,64,0.128,{'consistent': 24},4.01,4.0,4.0
+Hopper-v5,2,64,0.128,{'consistent': 24},4.01,4.0,4.0

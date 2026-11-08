@@ -1,0 +1,13 @@
+\begin{tabular}{lrrrrrr}
+\toprule
+Candidate & $n$ & drift flag & raw flag & sub8 flag & $R_2$ flag & fingerprint model \\
+\midrule
+healthy (held-out) & 100 & 0 & 4 & 6 & 0 & 0 \\
+mass 1 $+10^{-6}$ & 40 & 0 & 0 & 2 & 0 & 0 \\
+mass 1 $+10^{-5}$ & 40 & 0 & 0 & 20 & 0 & 38 \\
+mass 1 $+10^{-4}$ & 40 & 1 & 2 & 39 & 15 & 40 \\
+Euler & 40 & 40 & 40 & 40 & 40 & 0 \\
+midpoint RK2 & 40 & 37 & 37 & 40 & 40 & 0 \\
+Euler + mass 2 $+1\%$ & 40 & 40 & 40 & 40 & 40 & 0 \\
+\bottomrule
+\end{tabular}

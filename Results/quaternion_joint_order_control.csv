@@ -1,0 +1,6 @@
+base_joints,declared_integrator,declared_order,classes,median_a,median_b,median_c
+"free (quaternion) + arm, gravity",RK4,4,{'order-2': 24},2.0,2.0,2.0
+"free (quaternion) + arm, gravity",Euler,1,{'consistent': 24},1.0,1.0,1.0
+"3 slides + 3 hinges + arm, gravity",RK4,4,"{'consistent': 23, 'order-3': 1}",4.04,4.02,4.01
+"3 slides + 3 hinges + arm, gravity",Euler,1,"{'consistent': 19, 'blowup': 4, 'unstable': 1}",1.0,1.0,1.0
+"torque-free asymmetric body, free joint, no gravity",RK4,4,"{'consistent': 14, 'undetermined': 10}",4.03,4.01,4.0

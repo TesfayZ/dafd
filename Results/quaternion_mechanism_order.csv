@@ -1,0 +1,9 @@
+model,integrator,declared_order,macro_h,floor_factor,classes,median_a,median_b,median_c
+"heavy top, ball joint",RK4,4,0.05,50.0,{'order-2': 24},2.01,2.0,2.0
+"heavy top, ball joint",RK4,4,0.05,500.0,{'order-2': 24},2.01,2.0,2.0
+"heavy top, three hinges",RK4,4,0.05,50.0,"{'consistent': 18, 'blowup': 5, 'order-3': 1}",4.08,4.01,4.0
+"heavy top, three hinges",RK4,4,0.05,500.0,"{'consistent': 18, 'blowup': 5, 'order-3': 1}",4.08,4.01,4.0
+"free body, COM at joint",RK4,4,0.05,50.0,"{'consistent': 5, 'undetermined': 17, 'model': 2}",3.94,3.97,3.89
+"free body, COM at joint",RK4,4,0.05,500.0,{'undetermined': 24},,,
+"free body, COM offset",RK4,4,0.05,50.0,{'order-2': 24},2.0,2.0,2.0
+"free body, COM offset",RK4,4,0.05,500.0,{'order-2': 24},2.0,2.0,2.0
