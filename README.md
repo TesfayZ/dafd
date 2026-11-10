@@ -1,5 +1,8 @@
 # Diagnosing Model and Discretisation Errors in Reinforcement Learning Simulators Using Invariants
-Python implementation and reproducibility tools for **Diagnosing Model and Discretisation Errors in Reinforcement Learning Simulators Using Invariants**.
+
+Python implementation and reproducibility tools for the paper
+**[Diagnosing Model and Discretisation Errors in Reinforcement Learning Simulators Using Invariants](https://zenodo.org/records/24114609)**
+(Tesfay Zemuy Gebrekidan, Zenodo preprint).
 The code tests symbolic invariance, classifies energy-defect refinement patterns,
 and audits parameter consistency and numerical integration in Gymnasium and MuJoCo.
 The comparison benchmarks use the reference-based invariant screen from prior
@@ -78,7 +81,7 @@ float64 internal state and a callable step with adjustable timestep.
 ## Experiments and result files
 
 Paths in the last column are relative to `Results/`. Section numbers refer to
-the accompanying paper. Trial CSVs retain individual outcomes; summary CSVs
+the paper. Trial CSVs retain individual outcomes; summary CSVs
 feed the generated tables. Counts across reused configurations are evaluations,
 not independent starts.
 
